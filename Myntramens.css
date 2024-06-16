@@ -168,27 +168,46 @@ border-bottom: green 4px solid;
 
 .action-bar{
   width: 150px;
-  min-width: 17%;
+  max-width: 17%;
   display: flex;
-  margin-right: 5px;
+  margin-inline: 35px;
   align-items: center;
   justify-content: space-evenly;
+  padding-top: 25px;
+  gap: 20px;
 }
 
 .action-flex {
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: center;
-  justify-content: space-evenly;
+  position: relative;
+}
+
+.adj {
+  right: 17px;
 }
 
 .action-icon {
-  color: rgb(56, 55, 55);
-  font-weight: 1px;
+  color: rgba(56, 55, 55, 0.589);
+  position: absolute;
+  right: 0;
+  top: -24px;
 }
 
-.action-txt {
-  color: black;
+.Profile {
+  color: rgba(56, 55, 55, 0.589);
+  position: absolute;
+  right: 8px;
+  top: -24px;
+}
+
+.Wishlist {
+  color: rgba(56, 55, 55,0.589);
+  position: absolute;
+  right: 12px;
+  top:-24px;
+}
+
+  .action-txt {
+  color: #282c3f;
   font-size: 14px;
   font: 100;
 }
@@ -207,6 +226,7 @@ border-bottom: green 4px solid;
 main{
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 .deals-container {
