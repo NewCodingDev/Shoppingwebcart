@@ -437,7 +437,7 @@ border-bottom: green 4px solid;
 
 .price-row {
   margin-bottom: 12px;
-  justify-content: space-between;
+  justify-content:space-between;
 }
 
 footer {
