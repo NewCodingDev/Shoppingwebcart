@@ -241,7 +241,6 @@ border-bottom: green 4px solid;
   text-transform: capitalize;
   color: #ff3f6c;
   cursor: pointer;
-  display: inline-block;
   
 }
 
@@ -438,7 +437,25 @@ border-bottom: green 4px solid;
 .price-row {
   margin-bottom: 12px;
   justify-content:space-between;
+  /* border: solid #000000 1px; */
 }
+
+.cart-right small {
+  color:var(--Second-Mcolor);font-weight:400;font-size:12px;
+  padding-left: 3px;
+  margin: 0;
+  display: grid;
+}
+
+.cart-right .item-name {
+  overflow:visible;
+}
+
+.price-details {
+border-bottom:1px solid #eaeaec;
+padding-bottom: 20px;
+}
+
 
 footer {
     padding: 30px 0px 40px 0px;
