@@ -44,7 +44,6 @@ h3 {
 .flex {
   display: flex;
   justify-content: center;
-  width: 100%;
 }
 
 body {
@@ -127,6 +126,51 @@ border-bottom: green 4px solid;
   /* display: inline-block; */
   margin-top: 8px;
 }
+
+.action-flex {
+  position: relative;
+}
+
+.adj {
+  position: relative;
+  right: 17px;
+  top: 21px;
+}
+
+.action-icon {
+  color: rgba(56, 55, 55, 0.589);
+  position: absolute;
+  right: 0;
+  top: -22px;
+}
+
+.action-txt {
+  color: #282c3f;
+  font-size: 14px;
+  font: 100;
+}
+
+.action-txt span {
+  font-size: 22px;
+}
+
+a .bag-item-count {
+  background-color: #f16565;
+  white-space: nowrap;
+  text-align: center;
+  line-height: 17px;
+  padding: 0 6px;
+  height: 18px;
+  position: relative;
+  border-radius: 50%;
+  font-size: 13px;
+  color: #ffffff;
+  left: 13px;
+  top: -49px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
 
 .secure-container {
   width: 100%;
@@ -491,6 +535,7 @@ padding-bottom: 20px;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  transition: .2s ease-in-out ;
 }
 
 .place-order-btn:hover,
@@ -689,6 +734,7 @@ footer {
 width: 135px;
 margin: 10px;
 color: rgba(0, 0, 0, 0.821);
+text-overflow: ellipsis;
 }
 
 .item-container:hover {
@@ -740,11 +786,12 @@ color: rgba(0, 0, 0, 0.821);
   line-height: 15px;
   color: #282c3f;
   white-space: nowrap;
-  margin-block: 10px ;
+  margin-block: 5px ;
+  
 }
 
 .current-price {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
   color: #282c3f;
 }
@@ -754,14 +801,15 @@ color: rgba(0, 0, 0, 0.821);
   color: #7e818c;
   font-weight: 400;
   margin-left: 5px;
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .discount {
   color: #ff905a;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 11px;
   margin-left: 5px;
+  
 }
 
 .addbag-btn {
@@ -777,7 +825,7 @@ color: rgba(0, 0, 0, 0.821);
   height: 40px;
   line-height: 20px;
   list-style: none;
-  margin: 4px;
+  margin: 3px;
   /* margin-right: 10px; */
   outline: none;
   padding: 10px 16px;
@@ -788,12 +836,29 @@ color: rgba(0, 0, 0, 0.821);
   -webkit-user-select: none;
   touch-action: manipulation;
   transition: .2s ease-in-out;
-  width: 96%;
+  width: 95%;
 }
 
 .addbag-btn:hover,
 .addbag-btn:focus {
   background-color: #da749b;
+}
+
+a .bag-item-count {
+  background-color: #f16565;
+  white-space: nowrap;
+  text-align: center;
+  line-height: 17px;
+  padding: 0 6px;
+  height: 18px;
+  position: relative;
+  border-radius: 50%;
+  font-size: 13px;
+  color: #ffffff;
+  left: 13px;
+  top: -49px;
+  font-weight: 700;
+  cursor: pointer;
 }
 
 

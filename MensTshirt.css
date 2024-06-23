@@ -173,7 +173,7 @@ border-bottom: green 4px solid;
   margin-inline: 35px;
   align-items: center;
   justify-content: space-evenly;
-  padding-top: 25px;
+  padding-top: 25px ;
   gap: 20px;
 }
 
@@ -184,6 +184,7 @@ border-bottom: green 4px solid;
 .adj {
   position: relative;
   right: 17px;
+  top: 10px;
 }
 
 .action-icon {
@@ -214,7 +215,7 @@ border-bottom: green 4px solid;
 }
 
 .action-txt span {
-  font-size: 21px;
+  font-size: 22px;
 }
 
 
@@ -542,9 +543,27 @@ color: rgba(0, 0, 0, 0.821);
 }
 
 .addbag-btn:hover,
-.addbag-btn:focus {
+.addbag-btn:active {
   background-color: #da749b;
 }
+
+a .bag-item-count {
+  background-color: #f16565;
+  white-space: nowrap;
+  text-align: center;
+  line-height: 17px;
+  padding: 0 6px;
+  height: 18px;
+  position: relative;
+  border-radius: 50%;
+  font-size: 13px;
+  color: #ffffff;
+  left: 13px;
+  top: -49px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
 
 
 
