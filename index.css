@@ -13,6 +13,7 @@ a {
 
 li {
   text-decoration: none;
+  list-style: none;
 }
 
 :root {
@@ -62,7 +63,7 @@ body {
   position: fixed;
   right: 0;
   left: 0;
-  z-index: 100;
+  z-index: 1;
   box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .05);
   background-color: #ffffff;
 
@@ -94,6 +95,7 @@ nav .logo img{
 .nav-container {
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .topic-container{
@@ -126,6 +128,47 @@ border-bottom: green 4px solid;
     vertical-align: baseline;
     text-transform: uppercase;
 }
+
+.nav-link-container {
+  position: absolute;
+  top: 100%;
+  width: 85%;
+  height: 440px;
+  background-color: white;
+  border: #282c3f 1px solid;
+}
+
+.link-container {
+  display: flex;
+}
+
+.category-column {
+  padding: 7px 10px;
+  width: 20%;
+  margin: 20px;
+}
+
+.hr {
+  margin-block: 10px;
+  border-top: solid 1px rgba(238, 95, 114, 0.493);
+}
+
+.category-column li {
+  margin-block: 3px;
+}
+
+
+.category-name {
+  color: rgb(238,95,115);
+  margin-bottom: 7px;
+  
+}
+
+.category-link{
+  color: rgb(40, 44, 63);
+  font-weight: 100;
+}
+
 
 .search-bar {
   min-width: 23%;
@@ -197,14 +240,14 @@ border-bottom: green 4px solid;
 .Profile {
   color: rgba(56, 55, 55, 0.589);
   position: absolute;
-  right: 10px;
+  right: 12px;
   top: -22px;
 }
 
 .Wishlist {
   color: rgba(56, 55, 55,0.589);
   position: absolute;
-  right: 14px;
+  right: 18px;
   top:-22px;
 }
 
@@ -215,7 +258,7 @@ border-bottom: green 4px solid;
 }
 
 .action-txt span {
-  font-size: 21px;
+  font-size: 25px;
 }
 
 /* 
